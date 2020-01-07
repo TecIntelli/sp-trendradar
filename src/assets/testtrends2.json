@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "project": {
+      "name": "Projektname ABC",
+      "modified": "21.10.2019"
+    },
+    "ratings": [
+      {
+        "name": "sector",
+        "levels": [
+          {
+            "value": 1,
+            "name": "Gesellschaft / Kultur / Lebensqualität"
+          },
+          {
+            "value": 2,
+            "name": "Wirtschaft"
+          },
+          {
+            "value": 3,
+            "name": "Politik und Governance"
+          }
+        ]
+      },
+      {
+        "name": "distance",
+        "levels": [
+          {
+            "value": 1,
+            "name": "Handeln"
+          },
+          {
+            "value": 2,
+            "name": "Vorbereiten"
+          },
+          {
+            "value": 3,
+            "name": "Beobachten"
+          }
+        ]
+      },
+      {
+        "name": "effect",
+        "levels": [
+          {
+            "value": 1,
+            "name": "Unternehmensprozesse / -struktur"
+          },
+          {
+            "value": 2,
+            "name": "Ressourcen / Personal "
+          },
+          {
+            "value": 3,
+            "name": "Kunde / Markt"
+          },
+          {
+            "value": 4,
+            "name": "Politik / Gesellschaft"
+          }
+        ]
+      }
+    ]
+  },
+  "elements": [
+    {
+      "name": "Testtrend 1 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 2 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 3 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 4 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 5 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 6 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 7 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 8 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 9 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 10 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 11 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 12 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 13 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 14 ",
+      "description": "Testtrend für Ring 1 und Sektor 1",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 2 ",
+      "description": "Testtrend für Ring 2 und Sektor 2",
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 21 ",
+      "description": "Testtrend für Ring 2 und Sektor 2",
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,
+          2,
+          4
+        ]
+      }
+    },
+
+
+    {
+      "name": "Testtrend 3 ",
+      "description": "Testrend Ring 3 und Sektor 3",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  ]
+}

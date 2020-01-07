@@ -1,0 +1,46 @@
+<!--
+Für jeden Sektor sowie Effekt wird eine Checkbox erzeugt. Bei ändern der Checkbox (aktiviert/nicht aktiviert)
+wird die Methode checkBoxChanged ausgelöst. Sektoren u. Effekte werden über DataService ermittelt. Neben der Checkbox
+wird eine farbliche Legende mit der zum Sektor/Effekt zugehörigen Farbe angezeigt.
+-->
+<div id="container">
+  <div id="sector">
+    <h1>Kategorien</h1>
+    <table>
+      <tr *ngFor="let sec of dataService.sectors">
+        <td>
+          <svg width="18" height="18">
+            <rect x="0" y="0" width="18" height="18" attr.fill="{{sec.color}}"></rect>
+          </svg>
+        </td>
+        <td>
+          <dx-check-box
+            [value]="sec.isVisible"
+            text={{sec.name}}
+            (onValueChanged)="checkBoxChanged($event, sec)"
+          ></dx-check-box>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="effect">
+    <h1>Effekte</h1>
+    <table>
+      <tr *ngFor="let eff of dataService.effects">
+        <td>
+          <svg width="18" height="18">
+            <rect x="0" y="0" width="18" height="18" attr.fill="{{eff.color}}"></rect>
+          </svg>
+        </td>
+        <td>
+          <dx-check-box
+            [value]="eff.isVisible"
+            text={{eff.name}}
+            (onValueChanged)="checkBoxChanged($event, eff)"
+          ></dx-check-box>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

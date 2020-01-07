@@ -1,0 +1,84 @@
+<!--RadarChart Komponente, sowie PopUps zu Anzeige von Trendinformationen und Trendbewertung-->
+
+
+<div>
+  <h1>{{dataService.meta.projectname}}</h1>
+
+  <!-- Polar Chart erzeugen-->
+  <dx-polar-chart id="radarChart" [dataSource]="trends" [customizePoint]="customizePoint"
+                  (onPointClick)="pointClick($event)">
+
+    <!-- Typauswahl des Polar Charts, Zuordnung der Variablen für Koordniaten-->
+    <dxi-series type="scatter" valueField="val" argumentField="arg"></dxi-series>
+
+    <!--Konfiguration der Argument Achse-->
+    <dxo-argument-axis
+      [visible]="false"
+      [inverted]="false"
+      [label]={visible:false}
+      [startAngle]="0"
+      [tickInterval]="tickIntervalArgAxis"
+      [period]="360"
+      [tick]={visible:false}
+      [grid]={visible:false}
+      [minorGrid]={visible:false}
+      [strips]="ArgStrips">
+    </dxo-argument-axis>
+
+
+    <!--Konfiguration für die Value Achse-->
+    <dxo-value-axis
+      [grid]={visible:true}
+      [label]={visible:false}
+      [minorGrid]={visible:false}
+      [strips]="ValStrips"
+      [visible]="false"
+      max="300"
+      maxValueMargin="0"
+      min="0"
+      minValueMargin="0"
+      tickInterval="100"
+      type="continous">
+    </dxo-value-axis>
+
+
+    <!--Tooltip für Anzeige von Trendname beim hovern -->
+    <dxo-tooltip
+      [enabled]="true"
+      [customizeTooltip]="customizeTooltip">
+    </dxo-tooltip>
+
+    <!-- DevExtreme Legende deaktivieren, da in dieser Konstellation nicht einsetzbar-->
+    <dxo-legend [visible]="false"></dxo-legend>
+  </dx-polar-chart>
+
+
+
+  <!-- PopUp für die Anzeige von Trendinformationen, im Inhalt des PopUps wir die Trendinfo-Komponente angezeigt-->
+  <dx-popup
+    [showTitle]="true"
+    [title]="currentTrend"
+    [dragEnabled]="false"
+    [closeOnOutsideClick]="true"
+    [(visible)]="popupVisible">
+    <div>
+      <app-trendinfo [currentTrend]="currentTrend" [currentSector]="currentSector" [currentDistname]="currentDistname"
+                     [currentEffect]="currentEffect"
+                     [currentDescription]="currentDescription" (ratingButtonClicked)="openRatingPopUp()"></app-trendinfo>
+    </div>
+  </dx-popup>
+
+
+  <!--PopUp für die Trendbewertung, im Inhalt des PopUps wird die Ratingkomponente angezeigt -->
+  <dx-popup
+    title="Trendbewertung"
+    [showTitle]="true"
+    [dragEnabled]="false"
+    [closeOnOutsideClick]="true"
+    [(visible)]="popup2Visible">
+    <div>
+      <app-rating [currentTrend]="currentTrend" (ratingSend)="closeRatingPopUp()"></app-rating>
+    </div>
+  </dx-popup>
+</div>
+

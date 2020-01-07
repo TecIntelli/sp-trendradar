@@ -1,0 +1,11 @@
+<div>
+  <h2><b>Kategorie:</b> {{currentSector}}</h2>
+  <h2><b>Einstufung:</b> {{currentDistname}}</h2>
+  <h3><b>Effekt/e:</b> {{currentEffect}}</h3>
+  <div id="description" [innerHTML]="currentDescription"></div>
+  <div id="button" align="center">
+    <dx-button [width]="150" [height]="50" title="Bewerten" stylingMode="outlined" type="normal"
+               (onClick)="ratingButtonClicked($event)">Trend bewerten
+    </dx-button>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+#radarChart {
+  height: 600px;
+}
+
+#description{
+  padding-top: 1rem;
+}
+#button{
+ padding-top: 1rem;
+}
+
+
+h1 {
+  font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana;
+  font-weight: 900;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2{
+
+  font-size: 18px;
+}
+h3{
+
+  font-size: 16px;
+}
+
+
+
+
+
+
+/*TODO Bezeichnungen prüfen, anpassen, ändern nicht benötigt löschen*/

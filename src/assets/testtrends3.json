@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "project": {
+      "name": "Projektname ABC",
+      "modified": "21.10.2019"
+    },
+    "ratings": [
+      {
+        "name": "sector",
+        "levels": [
+          {
+            "value": 1,
+            "name": "Gesellschaft / Kultur / Lebensqualität"
+          },
+          {
+            "value": 2,
+            "name": "Wirtschaft"
+          },
+          {
+            "value": 3,
+            "name": "Politik und Governance"
+          }
+        ]
+      },
+      {
+        "name": "distance",
+        "levels": [
+          {
+            "value": 1,
+            "name": "Handeln"
+          },
+          {
+            "value": 2,
+            "name": "Vorbereiten"
+          },
+          {
+            "value": 3,
+            "name": "Beobachten"
+          }
+        ]
+      },
+      {
+        "name": "effect",
+        "levels": [
+          {
+            "value": 1,
+            "name": "Unternehmensprozesse / -struktur"
+          },
+          {
+            "value": 2,
+            "name": "Ressourcen / Personal "
+          },
+          {
+            "value": 3,
+            "name": "Kunde / Markt"
+          },
+          {
+            "value": 4,
+            "name": "Politik / Gesellschaft"
+          }
+        ]
+      }
+    ]
+  },
+  "elements": [
+    {
+      "name": "Testtrend 1 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },{
+      "name": "Testtrend 2 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 3 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 4 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 5 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 6 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 7 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 8 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 9 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 10 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 11 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 12 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 13 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 14 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 15 ",
+      "description":"",
+      "rating": {
+        "sector": 1,
+        "distance": 1,
+        "effect": [
+          2,
+          4,3,1
+        ]
+      }
+    },
+    {
+      "name": "Testtrend 16 ",
+	  "description":"",
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 17 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 18 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 19 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 20 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 21 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 22 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 23 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 24 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 25 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 26 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 27 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 28 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 29 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 30 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 31 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 32 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 33 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 34 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 35 ",
+	  "description":"" ,
+      "rating": {
+        "sector": 2,
+        "distance": 2,
+        "effect": [
+          1,
+          3,2,4
+        ]
+      }
+    },
+
+
+    {
+      "name": "Testtrend 36 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 37 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 38 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 39 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 40 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 41 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 42 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 43 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 44 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 45 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 46 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 47 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 48 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 49 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 50 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 51 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 52 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 53 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 54 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 55 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 56 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    },
+	{
+      "name": "Testtrend 57 ",
+      "description": "",
+      "rating": {
+        "sector": 3,
+        "distance": 3,
+        "effect": [
+          1,2,3,4
+        ]
+      }
+    }
+  ]
+}

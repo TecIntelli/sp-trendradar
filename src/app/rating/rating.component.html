@@ -1,0 +1,31 @@
+<!--
+Für jedes Level in ratingsToSend wird eine Sliderkomponente erzeugt.
+Über diese ist ein Wert zwischen 0-5 einstellbar. Dieser Wert wird jeweis im Tooltip angezeigt.
+Bei Click des Buttuns wird die Mehtode buttonclicked aufgerufen.
+-->
+
+<div>
+  <div class="dx-fieldset" *ngFor="let lev of ratingsToSend.ratings">
+    <div class="dx-field">
+      <div class="dx-field-label">{{lev.name}}</div>
+      <div class="dx-field-value">
+        <dx-slider
+          [min]="0"
+          [max]="5"
+          [(value)]="lev.value"
+        >
+          <dxo-tooltip
+            [enabled]="true"
+            showMode="always"
+            position="bottom"
+          ></dxo-tooltip>
+        </dx-slider>
+      </div>
+    </div>
+  </div>
+  <div id="button" align="center">
+    <dx-button dx-button [width]="150" [height]="50" title="Bewerten" stylingMode="contained" type="default"
+               (onClick)="buttonclicked($event)">Bewertung senden
+    </dx-button>
+  </div>
+</div>

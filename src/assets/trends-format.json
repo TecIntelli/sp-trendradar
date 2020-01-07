@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "project": {
+	  "name": "Projektname ABC",
+	  "modified": "21.10.2019"
+	},
+	"ratings": [
+	  {
+	    "name": "sector",
+        "levels": [
+		  {
+		    "value": 1,
+			"name": "Gesellschaft / Kultur / Lebensqualität"
+		  },
+		  {
+		    "value": 2,
+			"name": "Wirtschaft"
+		  },
+		  {
+		    "value": 3,
+			"name": "Politik und Governance"
+		  }
+        ]
+	  },
+	  {
+	    "name": "distance",
+        "levels": [
+		  {
+		    "value": 1,
+			"name": "Handeln"
+		  },
+		  {
+		    "value": 2,
+			"name": "Vorbereiten"
+		  },
+		  {
+		    "value": 3,
+			"name": "Beobachten"
+		  }
+        ]
+	  },
+	  {
+	    "name": "effect",
+        "levels": [
+		  {
+		    "value": 1,
+			"name": "Unternehmensprozesse / -struktur"
+		  },
+		  {
+		    "value": 2,
+			"name": "Ressourcen / Personal "
+		  },
+		  {
+		    "value": 3,
+			"name": "Kunde / Markt"
+		  },
+		  {
+		    "value": 4,
+			"name": "Politik / Gesellschaft"
+		  }
+        ]
+	  }
+	]
+  },
+  "elements": [
+    {
+	  "name": "Digitaler Kompetenzdruck als gesellschaftliche Gestaltungsaufgabe",
+	  "description": "encoded / parsed text with HTML tags",
+	  "rating": {
+	     "sector": 1,
+		 "distance": 3,
+		 "effect": [2, 4]
+	  }
+	}
+  ]
+}

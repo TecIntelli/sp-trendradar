@@ -1,0 +1,13 @@
+<!--
+Radar Chart wird in den Container eingefügt. Die notwendigen Input Daten werden über dataService bereitgestellt.
+Filterkomponente wird eingefügt
+-->
+
+
+
+  <app-radar-chart [trends]="dataService.trendsToChart" [visibleSectors]="dataService.visibleSectors"
+                   [tickIntervalArgAxis]="dataService.tickIntervalArgAxis"></app-radar-chart>
+
+
+  <app-filter></app-filter>
+
